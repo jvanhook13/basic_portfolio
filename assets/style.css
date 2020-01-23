@@ -1,0 +1,121 @@
+#Outer_Div {
+    height: 100%;
+    /* position: relative; */
+    background-color: rgb(86, 44, 165);
+
+
+}
+
+#Header {
+    position: relative;
+    height: 150px;
+    margin-block-start: max-content;
+    background-color: blue;
+
+
+}
+
+#Your_Name {
+    float: left;
+    background-color: tomato;
+    padding: 50px;
+    margin: 15px;
+
+
+}
+
+#About {
+    float: right;
+    background-color: springgreen;
+    padding: 50px;
+    margin: 15px;
+
+}
+
+#Portfolio {
+    float: right;
+    background-color: mediumaquamarine;
+    padding: 50px;
+    margin: 15px;
+
+
+}
+
+#Contact {
+    float:  right;
+    background-color: hotpink;
+    padding: 50px;
+    margin: 15px;
+
+
+}
+
+#Info {
+
+    float: inherit;
+    position: relative;
+    left: 450px;
+
+    width: 960px;
+    height: 480px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+
+
+
+}
+
+#About_me {
+
+    position: absolute;
+    left: 15px;
+    top: 5px;
+
+    width: 80px;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 5px;
+    
+
+
+}
+
+.content {
+
+    display: inherit;
+
+
+
+}
+
+#image {
+
+    float: none;
+
+}
+
+#Car {
+
+left: 60px;
+top: 80px;
+float: left;
+height: 200px;
+width: 200px;
+margin: 20px;
+
+
+}
+
+#footer {
+
+    position: sticky;
+    padding: 150px;
+    margin-block-start: max-content;
+    border: 1px; color: blue;
+    background-color:  lightcoral;
+
+
+
+}
