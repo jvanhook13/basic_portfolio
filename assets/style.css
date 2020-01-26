@@ -1,5 +1,5 @@
 #Outer_Div {
-    height: 10000px;
+    height: 1000vh;
     /* position: relative; */
     background-color: rgb(86, 44, 165);
 
@@ -22,7 +22,7 @@
     float: left;
     background-color: tomato;
     padding: 50px;
-    margin: 15px;
+    margin: 10px;
 
 
 }
@@ -31,7 +31,8 @@
 
     font-family: fantasy;
     font-weight: bolder;
-    font-size:  45px;
+    font-size:  30px;
+    
 
 
 }
@@ -67,6 +68,7 @@
     float: inherit;
     position: relative;
     left: 450px;
+    flex: 1 0 auto;
 
     width: 960px;
     height: 480px;
@@ -123,7 +125,7 @@
 
 #footer {
 
-    position: sticky;
+    position: sticky;;
     height: 100px;
     top: 910px;
     padding: 0px;
@@ -132,6 +134,7 @@
     background-color: lightcoral;
     z-index: 8;
     border-top: 8px solid #4aaaa5;
+    
 
 
 
@@ -145,3 +148,73 @@
 
 
 }
+
+#contact_form  {
+
+    float: inherit;
+    position: relative;
+    left: 450px;
+    flex: 1 0 auto;
+
+    width: 960px;
+    height: 480px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+    z-index: 0;
+
+
+
+}
+
+#form  {
+
+    position: absolute;
+    right: 55%;
+    bottom: 25%;
+
+
+
+}
+
+#contact_name {
+
+    width: 280%;
+
+}
+
+#email {
+
+    width: 280%;
+
+
+
+}
+
+#message {
+
+    width: 280%;
+    height: 25vh;
+
+
+
+}
+
+#footer_contact {
+
+    position: sticky;
+    height: 100px;
+    top: 910px;
+    padding: 0px;
+    border: 1px;
+    color: blue;
+    background-color: lightcoral;
+    z-index: 8;
+    border-top: 8px solid #4aaaa5;
+
+}
+
+
+
+
+    
