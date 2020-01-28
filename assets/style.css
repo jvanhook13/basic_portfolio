@@ -1,7 +1,8 @@
 #Outer_Div {
     height: 1000vh;
     /* position: relative; */
-    background-color: rgb(86, 44, 165);
+    background-image: radial-gradient(green, yellow, blue);
+    z-index: 0;
 
 
 }
@@ -20,7 +21,6 @@
 
 #Your_Name {
     float: left;
-    background-color: tomato;
     padding: 50px;
     margin: 10px;
 
@@ -28,10 +28,17 @@
 }
 
 #name {
-
+    position: absolute ;
+    width: 300px;
     font-family: fantasy;
     font-weight: bolder;
     font-size:  30px;
+    left: 490px;
+    bottom: 0%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-image: repeating-radial-gradient(hotpink, cyan);
     
 
 
@@ -39,7 +46,6 @@
 
 #About {
     float: right;
-    background-color: springgreen;
     padding: 50px;
     margin: 15px;
 
@@ -47,7 +53,6 @@
 
 #Portfolio {
     float: right;
-    background-color: mediumaquamarine;
     padding: 50px;
     margin: 15px;
 
@@ -56,7 +61,6 @@
 
 #Contact {
     float: right;
-    background-color: hotpink;
     padding: 50px;
     margin: 15px;
 
@@ -72,7 +76,7 @@
 
     width: 960px;
     height: 480px;
-    border: 1px solid green;
+    border: 0px solid green;
     padding: 50px;
     margin: 20px;
     z-index: 0;
@@ -158,7 +162,7 @@
 
     width: 960px;
     height: 480px;
-    border: 1px solid green;
+    border: 0px solid green;
     padding: 50px;
     margin: 20px;
     z-index: 0;
@@ -218,18 +222,15 @@
 
     display: grid;
     grid-template-columns: auto;
-    background-color: #2196F3;
-    padding: 10px;
+    padding: 0px;
 
 
 }
 
 .grid-container {
-    position: absolute;
+    position: relative;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
   }
 
   .grid_image {
